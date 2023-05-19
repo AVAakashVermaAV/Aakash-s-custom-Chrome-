@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>This is Aakash Verma</title>
+  <style>
+  body {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSbOW4xnPVyjhL3at6lGxtmbX47sBoB_WPvQ&usqp=CAU') ;
+  Background-repeat: No-repeat;
+  Background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+  Position: absolute;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: pink;
+}
+
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-container button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: grey;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+    
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: 100px auto;
+      background-color: #FFF;
+    }
+    
+    .ball {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: pink;
+      animation: bounce 2s infinite;
+    }
+    
+    @keyframes bounce {
+      0% {
+        top: 0;
+      }
+      50% {
+        top: 300px;
+      }
+      100% {
+        top: 0;
+      }
+    }
+  
+
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Everything=Space
+    Aakash Verma</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="https://www.youtube.com">YouTube</a></li>
+      <li><a href="https://www.chatgpt.com">Chat GPT</a></li>
+      <li><a href="https://www.whatsapp.com">WhatsApp</a></li>
+      <li><a href="https://www.pixabay.com">Pixabay</a></li>
+      <li><a href="https://www.pixels.com">Pixels</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div class="search-container"> <form action="https://www.example.com/search" method="get"> <input type="text" name="query" placeholder="Search..."> <button type="submit">Search</button> </form> </div>
+      <div class="container">
+    <div class="ball"></div>
+  </main>
+</body>
+</html>
